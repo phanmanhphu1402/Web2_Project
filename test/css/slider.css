@@ -1,0 +1,149 @@
+@charset "utf-8";
+.slider{
+	padding: 0;
+	margin: 0;
+	background: rgb(62,55,98);
+	box-sizing: border-box;
+}
+.slide-Show-Container{
+	padding: 15px 18%;
+	position: relative;
+	box-sizing: border-box;
+	
+	
+}
+.slide-Show{
+	
+	
+	border: 1px ;
+	border-bottom: none;
+	box-shadow:  0 2px 7px black;
+	overflow: hidden;
+	border-radius: 20px;
+	padding: 0;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	display: none;
+	display: flex;
+	
+}
+.slide-Show .slide-image{
+	width: 65%;
+	height: 500px;
+	float: left;
+}
+.slide-Show .slide-image img{
+	min-height: 100%;
+	max-width: 100%;
+	object-fit: fill;
+}
+.slide-Show .slide-detail{
+	width: 35%;
+	height: 500px;
+	padding: 90px 45px 10px 40px; 
+	text-align: left;
+	background: rgb(34,31,52);
+	
+	float: left;
+}
+.slide-detail div{
+	padding-bottom: 20px;
+	color: rgb(160,160,159);
+}
+.slide-detail> h2{
+	font-size: 28px;
+	color: white;
+}
+.slide-detail .btn-shopping{
+	text-align: left;
+}
+.btn-shopping button{
+	width: 145px;
+	height: 40px;
+	box-sizing: border-box;
+	border: none;
+	color: white;
+	text-align: center;
+	background: rgb(219, 96, 143);
+	text-transform: uppercase;
+	font: bolder;
+	font-weight: 600;
+	border-radius: 5px;
+}
+
+
+
+.next,
+.prev{
+	
+	top: 40%;
+	position: absolute;
+	color: wheat;
+ 	width: auto;
+  	padding: 16px;
+ 	font-weight: bold;
+	font-size: 20px;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+}
+.next {
+  right: 19%;
+  border-radius: 3px 0 0 3px;
+  background-color: transparent;
+}
+.prev{
+  left: 19%;
+  border-radius: 3px 0 0 3px;
+  background-color: transparent;
+}
+.next:hover,
+.prev:hover{
+  background-color: rgba(255, 255, 255, 0.8);
+  color: black;
+}
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+.row{
+	overflow: hidden;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	
+	padding: 0;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+  
+}
+.column img{
+	height: 100px;
+}
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+

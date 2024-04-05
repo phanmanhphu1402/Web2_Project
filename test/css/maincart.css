@@ -1,0 +1,227 @@
+@charset "utf-8";
+.maincart{
+	padding-bottom: 10%;
+}
+.maincart-contain{
+	padding: 5% 15% 0 15%;
+	display: flex;
+	box-sizing: border-box;
+}
+.my-cart{
+	width: 70%;
+	padding-right: 2%;
+}
+.my-cart-heading{
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 10px;
+}
+.my-cart-heading h3{
+	font-size: 24px;
+	font-weight: 700px;
+	font: bold;
+	color: rgb(219, 96, 143);
+}
+.my-cart-heading a{
+	text-decoration: none;
+	color: black;
+}
+
+.my-cart th{
+	border-bottom: 1px solid gray;
+}
+.my-cart td {
+	border-bottom: 1px solid gray;
+	padding-right: 5px
+}
+.img-table{
+	width: 30%;
+	text-align: center;
+}
+.img-table img{
+	width: 75%;
+	object-fit: fill;
+}
+.name-table{
+	width: 30%;
+	color: rgb(104,71,158);
+	font: bolder;
+	font-weight: 700;
+	font-size: 16px;
+}
+.pre-price-table{
+	width: 10%;
+	color: rgb(104,71,158);
+	font: bolder;
+	font-weight: 700;
+	font-size: 16px;
+	text-align: center;
+}
+.quantity-table{
+	text-align: center;
+}
+.quantity-table input{
+	text-align: center;
+	width: 75px;
+	height: 25px;
+	border: 1px solid black;
+}
+.total-price-table{
+	width: 10%;
+	color: rgb(104,71,158);
+	font: bolder;
+	font-weight: 700;
+	font-size: 16px;
+	text-align: center;
+}
+.remove button{
+	background-color: transparent;
+	border: none;
+}
+.my-cart-promo-code> button{
+	margin-top: 15px;
+	font-size: 24px;
+	font: bold;
+	font-weight: 700;
+	color: black;
+	background-color: transparent;
+	border: none;
+	transition: 0.2s;
+}
+.my-cart-promo-code> button:hover{
+	color: gray;
+}
+.my-cart-promo-code .input-code{
+	display: flex;
+	margin: 0;
+	padding: 20px 0;
+	
+}
+#enterpromo{
+	display: none;
+}
+.input-code input{
+	width: 250px;
+	height: 44px;
+	padding: 10px;
+	font-size: 18px;
+	font: bold;
+	font-weight: 700;
+	color: rgb(104,71,158);
+}
+.input-code button{
+	width: 100px;
+	height: 44px;
+	font-size: 18px;
+	font: bold;
+	font-weight: 700;
+	color: black;
+	padding: 10px;
+	background-color: transparent;
+	transition: 0.2s;
+}
+.input-code button:hover{
+	color: gray;
+}
+.my-cart-note>button{
+	margin-top: 15px;
+	font-size: 24px;
+	font: bold;
+	font-weight: 700;
+	color: black;
+	background-color: transparent;
+	border: none;
+	transition: 0.2s;
+}
+.my-cart-note>button:hover{
+	color: gray;
+}
+.text-note{
+	padding: 20px 0;
+	
+}
+#addnote{
+	display: none;
+}
+.text-note textarea{
+	width: 350px;
+	height: 92px;
+	padding: 10px;
+	font-size: 18px;
+	font: bold;
+	font-weight: 700;
+	color: rgb(104,71,158);
+	border: 1px solid rgb(104,71,158);
+}
+.order-summary-heading{
+	padding-bottom: 10px;
+}
+.order-summary-heading h3{
+	font-size: 24px;
+	font-weight: 700;
+	font: bold;
+	color: rgb(219, 96, 143);
+}
+.order-summary-infomation{
+	font-size: 24px;
+	font-weight: 600;
+	font: bolder;
+	color: rgb(104,71,158);
+}
+.order-summary-infomation td{
+	padding: 10px 15px 10px 0;
+}
+.order-summary-btn-checkout .buttoncheckout{
+	width: 100%;
+	height: 44px;
+	background: rgb(219,96,143);
+	margin-bottom: 15px;
+	border-radius: 10px;
+	font-size: 14px;
+	font-weight: 600;
+	font: bolder;
+	color: black;
+	border: none;
+}
+.order-summary-btn-checkout .buttoncheckout:hover{
+	background: rgb(219,96,143,0.8);
+}
+.order-summary-btn-checkout .buttonpaypal{
+	width: 100%;
+	height: 44px;
+	background: rgb(255,196,57);
+	margin-bottom: 15px;
+	border-radius: 10px;
+	font-size: 14px;
+	font-weight: 600;
+	font: bolder;
+	color: black;
+	border: none;
+	transition: 0.2s;
+}
+.order-summary-btn-checkout .buttonpaypal:hover{
+	background-color: rgba(255,196,57,0.8)
+}
+.order-summary-btn-checkout .buttonpaypal i{
+	color: blue;
+}
+.order-summary-btn-checkout p{
+	text-align: center;
+	color: rgb(104,71,158);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

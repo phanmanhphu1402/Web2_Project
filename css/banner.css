@@ -1,0 +1,23 @@
+@charset "utf-8";
+.banner{
+	width: 100%;
+	float: left;
+	box-sizing: border-box;
+}
+.banner img{
+	width: 70%;
+	float: left;
+}
+.banner .banner-decription{
+	width: 30%;
+	float: left;
+	background: linear-gradient(120deg, #9c42f5, #f542dd);
+	padding: 115px 40px;
+	box-sizing: border-box;
+	opacity: 0.8;
+	min-height: 100%;
+}
+.banner-decription-heading{
+	text-align: center;
+	font-size: 24px;
+}
